@@ -1,0 +1,8 @@
+
+# HTID:15793654: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+php_value display_errors 1
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:15793654:
+Order Allow,Deny
+<FilesMatch "^add\.php$">
+Allow from all
+</FilesMatch>
